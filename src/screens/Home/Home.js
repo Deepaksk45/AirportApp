@@ -18,7 +18,7 @@ export default () => {
 
   const fatchAirports = async () => {
     await fetch(
-      'https://raw.githubusercontent.com/mwgg/Airports/master/airports.json',
+      'https://raw.githubusercontent.com/Deepaksk45/AirportApp/master/src/assets/airports.json',
     )
       .then((response) => response.json())
       .then(async (data) => {
